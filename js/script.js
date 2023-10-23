@@ -3,7 +3,7 @@ const Lightbulb = function (name) {
     this.get = function () {
         this.name = name;
         this.power = +prompt('Введите мощность лампочки, Вт');
-        this.costEnergy = 0.209;
+        this.costEnergy = 0.541;
         if (confirm('Включить лампочку?')) {
             this.workTime = +prompt('Сколько времени работает лампочка? , ч');
         } else {
